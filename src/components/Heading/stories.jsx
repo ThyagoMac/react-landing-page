@@ -1,4 +1,5 @@
 import { Headning } from '.';
+import '../../styles/index.css';
 
 export default {
   title: 'Headning',
