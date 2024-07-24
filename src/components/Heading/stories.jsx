@@ -6,6 +6,7 @@ export default {
   component: Headning,
   args: {
     children: 'A text for heading',
+    colordark: true,
   },
   argTypes: {
     children: { type: 'string' },
