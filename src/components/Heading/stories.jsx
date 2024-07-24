@@ -1,9 +1,9 @@
-import { Headning } from '.';
+import { Heading } from '.';
 import '../../styles/index.css';
 
 export default {
-  title: 'Headning',
-  component: Headning,
+  title: 'Heading',
+  component: Heading,
   args: {
     children: 'A text for heading',
     colordark: true,
@@ -29,4 +29,4 @@ export default {
   },
 };
 
-export const Template = (args) => <Headning {...args} />;
+export const Template = (args) => <Heading {...args} />;

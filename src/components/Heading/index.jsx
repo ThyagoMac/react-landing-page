@@ -1,6 +1,6 @@
 import * as Styled from './styles';
 
-export const Headning = ({
+export const Heading = ({
   children,
   colordark = false,
   as = 'h1',
