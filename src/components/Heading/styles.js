@@ -23,6 +23,6 @@ const mediaFont = (theme) => css`
 export const HeadingStyle = styled.h1`
   ${({ theme, colordark, size }) => css`
     color: ${colordark ? theme.colors.white : theme.colors.primaryColor};
-    ${titleSize[size](theme)}
+    ${titleSize[size](theme)};
   `}
 `;
