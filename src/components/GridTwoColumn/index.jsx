@@ -1,4 +1,3 @@
-import P from 'prop-types';
 import * as Styled from './styles';
 import { SectionBackground } from '../SectionBackground';
 import { Heading } from '../Heading';
@@ -25,8 +24,4 @@ export const GridTwoColumn = ({
       </Styled.Container>
     </SectionBackground>
   );
-};
-
-GridTwoColumn.propTypes = {
-  children: P.node.isRequired,
 };

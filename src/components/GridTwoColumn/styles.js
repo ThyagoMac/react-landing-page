@@ -9,7 +9,7 @@ export const Container = styled.div`
     gap: ${theme.font.sizes.large};
 
     ${HeadingStyle} {
-      margin-bottom: ${theme.font.sizes.large};
+      margin-bottom: ${theme.font.sizes.xlarge};
     }
 
     @media ${theme.media.lteMedium} {
@@ -22,7 +22,7 @@ export const TextContainer = styled.div`
   ${({ theme }) => css`
     @media ${theme.media.lteMedium} {
       text-align: center;
-      margin-bottom: ${theme.font.sizes.large};
+      margin-bottom: ${theme.font.sizes.xlarge};
     }
   `}
 `;
